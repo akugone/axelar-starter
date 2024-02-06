@@ -1,12 +1,10 @@
 # Axelar-contracts-starter
 
-
-Try running some of the following tasks:
-
 ```
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.ts
+npm install
+Complete the .env file (choose your network and add your Mnemonic and Infura key)
+Check make commands
+- make deploy
+- make deploy-verify
+Find you deployed contract address in the in the .deployed folder
 ```
